@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utama</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="overlay" style="display: none;"> <!-- Awalnya disembunyikan -->
+        <div class="lyrics">
+            <h1>Lirik Lagu Favorit</h1>
+            <p>
+                <span style="animation: revealLine 4s ease-in-out forwards 0s;">I'm so confused, baby, can't you
+                    see?</span><br>
+                <span style="animation: revealLine 4s ease-in-out forwards 2s;">Please come rescue me</span><br>
+                <span style="animation: revealLine 4s ease-in-out forwards 6s;">Sweet little bumble Dee</span><br>
+                <span style="animation: revealLine 4s ease-in-out forwards 7s;">I know what you want from
+                    me</span><br><br>
+                <span style="animation: revealLine 4s ease-in-out forwards 8s;">Dup-i-dup-i-do-la-da</span><br>
+                <span style="animation: revealLine 4s ease-in-out forwards 10s;">Dup-i-dup-i-do-la-da</span><br>
+            </p>
+        </div>
+    </div>
+
+    <!-- Video Background -->
+    <video autoplay muted loop id="background-video">
+        <source src="anya video.mp4" type="video/mp4">
+    </video>
+
+    <!-- Musik Background -->
+    <audio src="anya musik.mp3" id="linkmp3" class="sembunyi"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
